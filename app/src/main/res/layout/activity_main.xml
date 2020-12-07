@@ -11,10 +11,12 @@
         android:id="@+id/button"
         android:layout_width="352dp"
         android:layout_height="94dp"
+        android:alpha="0"
         android:background="#0B0000"
         android:text="Get Started"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:backgroundTint="#F8F2F2"
+        android:visibility="visible"
+        app:backgroundTint="#090808"
         app:iconTint="#ED0606"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +25,8 @@
         app:layout_constraintTop_toTopOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.914"
         app:rippleColor="#7C5858"
-        app:strokeColor="#B81717" />
+        app:strokeColor="#B81717"
+        tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,7 +34,7 @@
         android:layout_height="727dp"
         app:srcCompat="@drawable/android___1"
         tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

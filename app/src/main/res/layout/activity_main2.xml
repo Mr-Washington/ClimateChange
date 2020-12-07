@@ -16,41 +16,67 @@
         tools:layout_editor_absoluteY="48dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/events"
         android:layout_width="114dp"
         android:layout_height="74dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+        android:alpha="0"
         android:text="Events"
+        android:visibility="visible"
         app:backgroundTint="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/board"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.983" />
+        app:layout_constraintVertical_bias="0.983"
+        tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/board"
         android:layout_width="110dp"
         android:layout_height="78dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:alpha="0"
         android:text="Board"
+        android:visibility="visible"
         app:backgroundTint="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989" />
+        app:layout_constraintVertical_bias="0.989"
+        tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/news"
         android:layout_width="111dp"
         android:layout_height="71dp"
+        android:alpha="0"
         android:text="News"
+        android:visibility="visible"
         app:backgroundTint="#03A9F4"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/events"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.978"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:alpha="0"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

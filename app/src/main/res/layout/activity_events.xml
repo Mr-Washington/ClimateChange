@@ -12,17 +12,108 @@
         android:layout_height="715dp"
         app:srcCompat="@drawable/android___3"
         tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="6dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="383dp"
-        android:layout_height="81dp"
+        android:layout_width="405dp"
+        android:layout_height="71dp"
         android:layout_marginTop="108dp"
-        android:text="Button"
+        android:alpha="0"
+        android:text="NASA"
+        android:visibility="visible"
+        android:onClick="Myweb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
-        tools:visibility="invisible" />
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="171dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0"
+        android:text="Button"
+        android:visibility="visible"
+        android:onClick="Myweb2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="204dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="24dp"
+        android:alpha="0"
+        android:text="Button"
+        android:visibility="visible"
+        android:onClick="Myweb3"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="184dp"
+        android:layout_height="92dp"
+        android:alpha="0"
+        android:onClick="Myweb4"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/home1"
+        android:layout_width="97dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        android:alpha="0"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        tools:layout_editor_absoluteX="153dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/home2"
+        android:layout_width="47dp"
+        android:layout_height="74dp"
+        android:alpha="0"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/home1"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/events1"
+        android:layout_width="52dp"
+        android:layout_height="59dp"
+        android:alpha="0"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toEndOf="@+id/home1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
